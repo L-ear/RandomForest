@@ -13,7 +13,7 @@
 原数据集仓库里也有，在original_data文件夹下。还是附个下载链接吧 https://www.kaggle.com/c/titanic/data
 
 
-使用pandas对原数据集进行清洗和onehot编码，最后划分前600条数据作为训练集，后三百多条数据作为测试集。
+使用pandas对原数据集进行清洗和onehot编码，最后划分前600条数据作为训练集，后289条数据作为测试集。
 
 pre_data.py做的就是这部分工作。
 
