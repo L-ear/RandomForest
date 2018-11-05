@@ -22,21 +22,21 @@ pre_data.py做的就是这部分工作。
 
 决策树只设置了一个可调参数：
 
-*min_sample_leaf(落在叶子上的最小样本数)
+min_sample_leaf(落在叶子上的最小样本数)
 
-**当min_sample_leaf = 31时，我跑的分类正确率为0.702422
+当min_sample_leaf = 31时，我跑的分类正确率为0.702422
 
 
 随机森林有四个可调参数：
 
-*ip 随机挑选的样本比例为(ip,1)中的一个随机数
+ip 随机挑选的样本比例为(ip,1)中的一个随机数
 
-*jp 随机挑选的特征比例
+jp 随机挑选的特征比例
 
-*n_trees 树的数量
+n_trees 树的数量
 
-*min_sample_leaf 叶节点上的最小样本数
+min_sample_leaf 叶节点上的最小样本数
 
-**当n_trees=60,min_sample_leaf=5,ip=0.85,jp=0.7时，我跑的分类正确率为0.813149
+当n_trees=60,min_sample_leaf=5,ip=0.85,jp=0.7时，我跑的分类正确率为0.813149
 
-**需要补充的一点是，对于输入的train和test数据集，代码默认label是放在第一列的
+## 需要补充的一点是，对于输入的train和test数据集，代码默认label是放在第一列的
