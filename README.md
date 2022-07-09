@@ -1,5 +1,5 @@
 # RandomForest
-自己使用python实现的Cart分类决策树和基于该决策树的随机森林(仅供参考)
+python实现的Cart分类决策树和基于该决策树的随机森林(仅供参考)
 
 代码依赖numpy和pandas，运行前请确保有这两个包
 
